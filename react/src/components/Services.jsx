@@ -33,8 +33,11 @@ const Services = () => {
       </div>
 
       <div className="row mt-4 pt-4">
-        <div className="col-lg-4 mt-4">
-          <img className="pb-2" src={dungeon} style={{ height: "45px" }} />
+        <div className="col-lg-4 mt-4 text-center text-sm-start">
+          <div>
+            <img className="pb-2 " src={dungeon} style={{ height: "45px" }} />\
+          </div>
+
           <p className="pt-2 pb-2 pr-r">UAE Free Zone Company</p>
           <p className="gray noto">
             Your registration agent will answer all your questions and help you
@@ -45,7 +48,7 @@ const Services = () => {
           <img className="m-4" src={Ellipse19} />
         </div>
 
-        <div className="col-lg-4 mt-4">
+        <div className="col-lg-4 mt-4 text-center text-sm-start">
           <img className="pb-2" src={Vector2} style={{ height: "45px" }} />
           <p className="pt-2 pb-2 pr-r">Dubai Local Companies</p>
           <p className="gray noto">
@@ -57,7 +60,7 @@ const Services = () => {
           <img className="mx-4" src={Ellipse24} />
         </div>
 
-        <div className="col-lg-4 mt-4">
+        <div className="col-lg-4 mt-4 text-center text-sm-start">
           <img className="pb-2" src={Vector1} style={{ height: "45px" }} />
           <p className="pt-2 pb-2 pr-r">Offshore Companies</p>
           <p className="gray noto">
