@@ -16,9 +16,8 @@ const NavbarSection = () => {
         <Navbar.Collapse
           id="navbarScroll"
           className="d-md-flex justify-content-end "
-          navbarScroll
         >
-          <Nav className="my-2 my-lg-0" navbarScroll>
+          <Nav className="my-2 my-lg-0">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>
             <Nav.Link href="#">Pricing</Nav.Link>

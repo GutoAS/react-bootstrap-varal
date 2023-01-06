@@ -29,6 +29,7 @@ form {
   border-color: #585decaa;
   outline-color: #585cec;
 }
+
 ::placeholder {
   color: #585cec;
   opacity: 0.8;
@@ -37,12 +38,6 @@ form {
 .purple {
   color: #585cec;
   margin: 20px 2px;
-}
-
-span {
-  text-decoration: underline;
-  text-decoration-thickness: 6px;
-  text-decoration-color: rgb(255, 187, 0);
 }
 
 .gray {
@@ -69,6 +64,132 @@ span {
 .graybox {
   border: 1px solid gray;
   border-radius: 10px;
-  /* box-sizing: border-box; */
   height: min-content;
+}
+
+.card-item {
+  /* width: 33%; */
+  padding: 25px 40px;
+  border-radius: 6px;
+}
+
+.card-item.hover {
+  background-color: #585cec;
+}
+
+.card-item-title {
+  display: flex;
+  align-items: end;
+  height: 40px;
+  font-size: 23px;
+  font-weight: 700;
+  color: #585cec;
+  text-transform: uppercase;
+}
+
+.card-item.hover .card-item-title {
+  font-size: 25px;
+  color: white;
+}
+
+.card-price {
+  height: 55px;
+  white-space: nowrap;
+}
+
+.card-price-left {
+  font-weight: 900;
+  font-size: 30px;
+  color: #585cec;
+  border: none;
+}
+
+.card-item.hover .card-price-left {
+  color: white;
+  font-size: 33px;
+}
+
+.card-price-right {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(148, 146, 146);
+  border: none;
+}
+
+.card-item.hover .card-price-right {
+  color: white;
+}
+
+.card-include-title {
+  font-size: 19px;
+  font-weight: 500;
+  color: #585cec;
+}
+
+.card-item.hover .card-include-title {
+  color: white;
+}
+
+.card-include-items {
+  list-style: none;
+  padding: 10px 0 0 0;
+}
+
+.card-include-items li {
+  position: relative;
+  margin-bottom: 15px;
+  color: #585cec;
+  font-size: 16px;
+}
+
+.card-item.hover .card-include-items li {
+  color: white;
+}
+
+.card-include-items li svg {
+  position: absolute;
+  top: 4px;
+  font-size: 20px;
+}
+
+.card-include-items li p {
+  padding-left: 30px;
+  margin: 0;
+}
+
+.cart-button {
+  display: flex;
+  height: 70px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: -webkit-fill-available;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #585cec;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #585cec;
+  background-color: white;
+}
+
+.card-item.hover .cart-button {
+  display: block;
+  margin: 0;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-arrow.slick-prev {
+  display: none !important;
+}
+
+.slick-arrow.slick-next {
+  display: none !important;
 }

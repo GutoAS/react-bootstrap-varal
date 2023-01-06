@@ -22,7 +22,16 @@ const Services = () => {
         </p>
 
         <h4 className="fw-bold">
-          <span>Dedicated</span> <br />
+          <span
+            style={{
+              borderBottomWidth: "6px",
+              borderBottomStyle: "solid",
+              borderBottomColor: "rgb(255, 187, 0)",
+            }}
+          >
+            Dedicated
+          </span>{" "}
+          <br />
           to our mission we are
         </h4>
         <p className="gray fw-normal">

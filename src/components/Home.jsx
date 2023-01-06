@@ -25,7 +25,16 @@ const Home = () => {
 
         <div className="col-lg-6">
           <h1 className="blk-bold">
-            <span>Get started</span> on fullfilling your Dubai or UAE dream
+            <span
+              style={{
+                borderBottomWidth: "6px",
+                borderBottomStyle: "solid",
+                borderBottomColor: "rgb(255, 187, 0)",
+              }}
+            >
+              Get started
+            </span>
+            on fullfilling your Dubai or UAE dream
           </h1>
           <p className="purple noto">UAE & Offshore Company</p>
           <p className="gray fw-bold">
