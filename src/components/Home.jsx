@@ -32,7 +32,7 @@ const Home = () => {
                 borderBottomColor: "rgb(255, 187, 0)",
               }}
             >
-              Get started
+              Get started{" "}
             </span>
             on fullfilling your Dubai or UAE dream
           </h1>
