@@ -13,19 +13,16 @@ const NavbarSection = () => {
           <img src={Group114} alt="navi-logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0 "
-            style={{
-              maxHeight: "100px",
-            }}
-            navbarScroll
-          >
-            <Nav.Link href="#action1">Home</Nav.Link>
+        <Navbar.Collapse
+          id="navbarScroll "
+          className="d-flex justify-content-end"
+        >
+          <Nav className="my-2 my-lg-0 " navbarScroll>
+            <Nav.Link href="#home">Home</Nav.Link>
 
-            <Nav.Link href="#action2">Services</Nav.Link>
-            <Nav.Link href="#action2">Pricing</Nav.Link>
-            <Nav.Link href="#action2">About Us</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#">Pricing</Nav.Link>
+            <Nav.Link href="#about">About Us</Nav.Link>
           </Nav>
           <Button variant="primary" size="lg">
             Start a Company
