@@ -15,7 +15,7 @@ const NavbarSection = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse
           id="navbarScroll "
-          className="d-flex justify-content-end"
+          className="d-md-flex justify-content-end d-block"
         >
           <Nav className="my-2 my-lg-0 " navbarScroll>
             <Nav.Link href="#home">Home</Nav.Link>
