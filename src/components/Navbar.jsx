@@ -14,7 +14,7 @@ const NavbarSection = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse
-          id="navbarScroll "
+          id="navbarScroll"
           className="d-md-flex justify-content-end d-block"
         >
           <Nav className="my-2 my-lg-0 " navbarScroll>
