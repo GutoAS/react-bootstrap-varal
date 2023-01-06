@@ -232,7 +232,7 @@ const About = () => {
       </div>
       <div>
         <p className="text-center my-5" style={{ color: "grey" }}>
-          Varaluae 2021 &copy; All Right Reserved
+          Agostinho Soberano 2023 &copy; All Right Reserved
         </p>
       </div>
     </section>
