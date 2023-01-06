@@ -13,7 +13,11 @@ const NavbarSection = () => {
           <img src={Group114} alt="navi-logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll" className="d-md-flex  " navbarScroll>
+        <Navbar.Collapse
+          id="navbarScroll"
+          className="d-md-flex justify-content-end "
+          navbarScroll
+        >
           <Nav className="my-2 my-lg-0" navbarScroll>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>
