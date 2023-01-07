@@ -20,7 +20,7 @@ const NavbarSection = () => {
           <Nav className="my-2 my-lg-0">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#">Pricing</Nav.Link>
+            <Nav.Link href="#card">Pricing</Nav.Link>
             <Nav.Link href="#about">About Us</Nav.Link>
           </Nav>
           <Button variant="primary" size="lg">
